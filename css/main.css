@@ -234,8 +234,19 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 /* Aside */
@@ -275,6 +286,9 @@ input[type="button"] {
 /* Features */
 
 .features {
+  background: url("../img/unplugged-retreat-features.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -499,6 +513,10 @@ features p {
 
   .header-divider {
     display: none;
+  }
+
+  img {
+    width: 100%;
   }
 
   /* Hero Area */
